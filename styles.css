@@ -1,0 +1,57 @@
+/* Contact form container */
+.fs-form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Each field wrapper */
+.fs-field {
+  margin-bottom: 1rem;
+}
+
+/* Labels */
+.fs-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+/* Inputs & textarea */
+.fs-input,
+.fs-textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+/* Make textarea resizable vertically */
+.fs-textarea {
+  resize: vertical;
+}
+
+/* Button container alignment */
+.fs-button-group {
+  text-align: right;
+}
+
+/* Submit button */
+.fs-button {
+  padding: 0.75rem 1.5rem;
+  background: #007acc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.fs-button:hover {
+  background: #005fa3;
+}

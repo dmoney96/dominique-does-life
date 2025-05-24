@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact – Dominique Does Life</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Site Header / Nav -->
+    <header>
+      <nav>
+        <a href="index.html">Home</a> | <a href="about.html">About</a> |
+        <a href="lobbying.html">Lobbying</a> |
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <article>
+        <h1>Contact Me</h1>
+        <p>Have questions or data to share? Drop me a line below.</p>
+
+        <form
+          action="https://formspree.io/f/xzzrlboe"
+          method="POST"
+          class="fs-form"
+          target="_top"
+        >
+          <div class="fs-field">
+            <label class="fs-label" for="email">Email</label>
+            <input
+              class="fs-input"
+              type="email"
+              id="email"
+              name="_replyto"
+              placeholder="you@example.com"
+              required
+            />
+          </div>
+
+          <div class="fs-field">
+            <label class="fs-label" for="message">Message</label>
+            <textarea
+              class="fs-textarea"
+              id="message"
+              name="message"
+              rows="6"
+              placeholder="Tell me what’s on your mind…"
+              required
+            ></textarea>
+          </div>
+
+          <!-- honeypot to catch bots -->
+          <input type="text" name="_gotcha" style="display: none" />
+
+          <div class="fs-button-group">
+            <button class="fs-button" type="submit">Send Message</button>
+          </div>
+        </form>
+      </article>
+    </main>
+
+    <!-- Site Footer -->
+    <footer>
+      <p>© 2025 Dominique Does Life</p>
+    </footer>
+  </body>
+</html>
